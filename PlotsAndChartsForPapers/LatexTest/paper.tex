@@ -1,0 +1,69 @@
+\input{header.tex}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{gnuplot-lua-tikz}
+
+\begin{document}
+\maketitle
+I this document, I illustrate the use of different graphics file formats. I use:
+\begin{itemize}
+  \item PNG : does not scale well. Should be used as a last resort.
+  \item EPS : Scales very well, but the font is fixed in the image. Submission to conferences may ask you to use a supported font.
+  \item Tikz: My preferred way. It scales well, and the font follows the document. 
+\end{itemize}
+
+\begin{figure}[H]
+  \centering 
+  \includegraphics[width=0.75\columnwidth]{figures/FunctionCompare.pdf}
+  \caption {Using \texttt{matplotlib} library generating a PDF}
+\end{figure}
+
+\begin{figure}[H]
+  \centering 
+  \resizebox{0.75\columnwidth}{!}{
+    \input {figures/function_compare.tex}
+  }
+    
+  \caption {Using \texttt{matplotlib} and \texttt{tikzplotlib} library}
+\end{figure}
+
+\begin{figure}[H]
+  \centering 
+  \includegraphics[width=0.75\columnwidth]{figures/OctaveEPS.eps}
+  \caption {Using GNU Octave in EPS Format}
+\end{figure}
+
+
+\begin{figure}[H]
+  \centering 
+  \includegraphics[width=0.75\columnwidth]{figures/OctavePNG.png}
+  \caption {Using GNU Octave in PNG Format}
+\end{figure}
+
+\begin{figure}[H]
+  \centering 
+  \resizebox{0.75\columnwidth}{!}{
+    \input {figures/GnuplotTikz.tex}
+  }
+  \caption {Using \texttt{gnuplot} generated \texttt{tikzpicture} library}
+\end{figure}
+
+\begin{figure}[H]
+  \centering 
+  \includegraphics[width=0.75\columnwidth]{figures/GnuPlotPDF.pdf}
+  \caption {Using \texttt{gnuplot} to generate a \LaTeX PDF}
+\end{figure}
+
+\begin{figure}[H]
+  \centering 
+  \includegraphics[width=0.75\columnwidth]{figures/LibreEPS.eps}
+  \caption {Using LibreOffice in EPS Format}
+\end{figure}
+
+
+\begin{figure}[H]
+  \centering 
+  \includegraphics[width=0.75\columnwidth]{figures/LibrePNG.png}
+  \caption {Using LibreOffice in PNG Format}
+\end{figure}
+
+\end{document}
