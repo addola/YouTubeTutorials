@@ -1,0 +1,6 @@
+<configuration>
+    <input>
+       <net-file value="map.net.xml"/>
+       <route-files value="routes.rou.xml"/>
+    </input>
+</configuration>

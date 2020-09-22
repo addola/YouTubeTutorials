@@ -1,0 +1,5 @@
+<nodes>
+    <node id="west" x="0.0" y="25.0" />
+    <node id="mid" x="500.0" y="25.0" />
+    <node id="east" x="1000.0" y="25.0" />
+</nodes>

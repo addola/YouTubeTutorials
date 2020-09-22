@@ -1,0 +1,17 @@
+<edges>
+    <!-- West to East-->
+    <edge from="west" id="eastbound1" to="mid" numLanes="3" />
+    <edge from="mid" id="eastbound2" to="east" numLanes="3" />
+
+    <!-- East to West-->
+    <edge from="east" id="westbound1" to="mid" numLanes="3" />
+    <edge from="mid" id="westbound2" to="west" numLanes="3" />
+
+    <!-- North to South-->
+    <edge from="north" id="southbound1" to="mid" numLanes="3" />
+    <edge from="mid" id="southbound2" to="south" numLanes="3" />
+
+    <!-- South to North-->
+    <edge from="south" id="northbound1" to="mid" numLanes="3" />
+    <edge from="mid" id="northbound2" to="north" numLanes="3" />
+</edges>
