@@ -46,6 +46,8 @@ trips:
 	sed -i "s/vehicle id=\"/vehicle id=\"deliv/g" delivery_routes.rou.xml
 	sed -i "s/vehicle id=\"/vehicle id=\"trailer/g" trailer_routes.rou.xml
 
+sim:
+	sumo-gui sim.sumocfg
 
 clean:
 	rm -f sumoTrace.xml ns2mobility.tcl
