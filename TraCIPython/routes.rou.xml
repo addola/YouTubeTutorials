@@ -1,0 +1,6 @@
+<routes>
+   <vType id="car1" type="passenger" length="5" maxSpeed="23.61" accel="3.5" decel="2.2" sigma="1.0" color="255,255,255"/>
+
+   <flow id="MyFlow" type="car1" departLane="0" departSpeed="20" from="FromEast" to="ToWest" probability="0.1" end="1000"/>
+
+</routes>

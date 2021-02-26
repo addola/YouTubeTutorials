@@ -1,33 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Mon 21 Sep 2020 06:47:52 PM EDT by Eclipse SUMO netedit Version v1_7_0+0155-75ad7bd236
+<!-- generated on Fri Feb 26 06:08:14 2021 by Eclipse SUMO netconvert Version v1_7_0+0155-75ad7bd236
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="map.net.xml"/>
+        <node-files value="nodes.nod.xml"/>
+        <edge-files value="edges.edg.xml"/>
     </input>
 
     <output>
         <output-file value="map.net.xml"/>
     </output>
-
-    <processing>
-        <geometry.min-radius.fix.railways value="false"/>
-        <geometry.max-grade.fix value="false"/>
-        <offset.disable-normalization value="true"/>
-        <lefthand value="false"/>
-    </processing>
-
-    <junctions>
-        <no-turnarounds value="true"/>
-        <junctions.corner-detail value="5"/>
-        <junctions.limit-turn-speed value="5.5"/>
-        <rectangular-lane-cut value="false"/>
-    </junctions>
-
-    <pedestrian>
-        <walkingareas value="false"/>
-    </pedestrian>
 
     <report>
         <aggregate-warnings value="5"/>

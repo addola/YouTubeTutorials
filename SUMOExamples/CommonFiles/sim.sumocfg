@@ -1,0 +1,12 @@
+<configuration>
+    <input>
+       <net-file value="map.net.xml"/>
+       <route-files value="truck_routes.rou.xml,passenger_routes.rou.xml,bus_routes.rou.xml,trailer_routes.rou.xml,delivery_routes.rou.xml"/>
+    </input>
+
+
+    <gui_only>
+        <gui-settings-file value="settings.xml"/>
+     </gui_only>
+     
+</configuration>

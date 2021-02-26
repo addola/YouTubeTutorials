@@ -14,6 +14,8 @@ trips:
 	echo "$(date) : Making trips" 
 	python $(SUMO_HOME)/tools/randomTrips.py -n map.net.xml -r routes.rou.xml  -o trips.xml -e 600 -p 0.2
 
+sim:
+	sumo-gui -c sim.sumocfg
 
 clean:
 	rm -f sumoTrace.xml ns2mobility.tcl
